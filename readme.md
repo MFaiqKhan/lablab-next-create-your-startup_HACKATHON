@@ -1,4 +1,6 @@
-# Diet Tracking Project Documentation
+#Lablab.ai Next-create-startup-Hackthon Submission.
+
+# Diet Vision
 
 ## Overview
 This project involves building a system to automatically track and predict the nutritional values of food items from images. The system uses computer vision and machine learning models deployed on an inference server to analyze images and return nutritional information.
@@ -13,7 +15,7 @@ This project involves building a system to automatically track and predict the n
 
 #### Model
 - **Model Architecture:** InceptionV3, will be Updating to YOLOV8 .
-- **Model Training Framework:** TensorFlow
+- **Model Training Framework:** TensorFlow (Will be moving on to pytorch)
 - **Dataset Used:** Nutrition5k by Google
   - **Max Values Calculation:** The max values for normalization (used for de-normalizing the output) are calculated from the Nutrition5k dataset by taking the maximum value of each nutritional attribute (calories, mass, fat, carbohydrates, protein) from the dataset.
 
@@ -24,6 +26,7 @@ This project involves building a system to automatically track and predict the n
 
 #### Backend API
 - **Framework:** Flask
+- **Others:** Opencv, numpy, pandas
 - **Language:** Python
 - **API Endpoint:** `/predict`
 - **URL:** `https://<server-ip>:5000/predict`
