@@ -1,0 +1,41 @@
+name: "inceptionv3"
+platform: "onnxruntime_onnx"
+max_batch_size: 0
+input [
+  {
+    name: "input"
+    data_type: TYPE_FP32
+    format: FORMAT_NHWC
+    dims: [1, 224, 224, 3 ]
+  }
+]
+output [
+  {
+    name: "total_calories_neuron"
+    data_type: TYPE_FP32
+    dims: [ 1 ]
+  },
+  {
+    name: "total_mass_neuron"
+    data_type: TYPE_FP32
+    dims: [ 1 ]
+  },
+  {
+    name: "total_fat_neuron"
+    data_type: TYPE_FP32
+    dims: [ 1 ]
+  },
+  {
+    name: "total_carb_neuron"
+    data_type: TYPE_FP32
+    dims: [ 1 ]
+  },
+  {
+    name: "total_protein_neuron"
+    data_type: TYPE_FP32
+    dims: [ 1 ]
+  }
+]
+
+
+default_model_filename:"inceptionv3.onnx"
