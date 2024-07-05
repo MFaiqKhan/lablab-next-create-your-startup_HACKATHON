@@ -50,8 +50,8 @@ Diet Vision is a pioneering system designed to automatically track and predict t
 
 Here are some sample images analyzed by Diet Vision, showcasing the predicted nutritional values:
 
-![Pizza](images\Image1.png)
-![A Plate full of good Meal](images\Images2.png)
+![A Plate full of good Meal](https://github.com/MFaiqKhan/lablab-next-create-your-startup_HACKATHON/blob/ccd3e35af648d4416c27aed764c9275deb552020/images/Image1.png)
+![Pizza](https://github.com/MFaiqKhan/lablab-next-create-your-startup_HACKATHON/blob/ccd3e35af648d4416c27aed764c9275deb552020/images/Image2.png)
 
 ### Future Developments
 
