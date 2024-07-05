@@ -5,35 +5,34 @@ input [
   {
     name: "input"
     data_type: TYPE_FP32
-    format: FORMAT_NHWC
-    dims: [1, 224, 224, 3 ]
+    dims: [-1, 224, 224,3 ]
   }
 ]
 output [
   {
     name: "total_calories_neuron"
     data_type: TYPE_FP32
-    dims: [ 1 ]
+    dims: [-1, 1 ] # 1 represents the batch size, and 1 indicates that each prediction is a scalar value (a single number representing the predicted quantity)
   },
   {
     name: "total_mass_neuron"
     data_type: TYPE_FP32
-    dims: [ 1 ]
+    dims: [-1, 1 ]
   },
   {
     name: "total_fat_neuron"
     data_type: TYPE_FP32
-    dims: [ 1 ]
+    dims: [-1, 1 ]
   },
   {
     name: "total_carb_neuron"
     data_type: TYPE_FP32
-    dims: [ 1 ]
+    dims: [-1, 1 ]
   },
   {
     name: "total_protein_neuron"
     data_type: TYPE_FP32
-    dims: [ 1 ]
+    dims: [-1,1 ]
   }
 ]
 

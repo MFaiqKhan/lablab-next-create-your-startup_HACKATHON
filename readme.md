@@ -58,17 +58,6 @@ This project involves building a system to automatically track and predict the n
   ```
 
 ## Usage
-
-1. **Start the Triton Inference Server:**
-
-   ```sh
-   docker run --gpus all --rm -p 8000:8000 -p 8001:8001 -p 8002:8002 -v <model-repo-path>:/models nvcr.io/nvidia/tritonserver:[XX.XX]-py3 tritonserver --model-repository=/models
-   ```
-
-2. **Start the Flask API:**
-
-   ```sh
-   python app.py
    ```
 
 3. **Send a POST request to the API endpoint:**

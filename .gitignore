@@ -1,1 +1,7 @@
 __pycache__
+.env
+.model.tar.gz
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

@@ -9,7 +9,7 @@ from keras.src.legacy.saving import legacy_h5_format
 import tensorflow as tf
 
 # Load the pre-trained model with custom objects
-model = legacy_h5_format.load_model_from_hdf5("inceptionv3_saved_model.h5", custom_objects={'MSE': 'MSE'})
+model = legacy_h5_format.load_model_from_hdf5("raw_models\inceptionv3_tf.h5", custom_objects={'MSE': 'MSE'})
 
 # Set the image dimensions to match the model's expected input size
 IMG_DIMN = 224  # Change as per your model's requirements
