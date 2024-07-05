@@ -53,6 +53,16 @@ Here are some sample images analyzed by Diet Vision, showcasing the predicted nu
 ![A Plate full of good Meal](https://github.com/MFaiqKhan/lablab-next-create-your-startup_HACKATHON/blob/ccd3e35af648d4416c27aed764c9275deb552020/images/Image1.png)
 ![Pizza](https://github.com/MFaiqKhan/lablab-next-create-your-startup_HACKATHON/blob/ccd3e35af648d4416c27aed764c9275deb552020/images/Image2.png)
 
+### Working on Application
+
+Under Construction
+
+**Streamlit Web App**
+![Diet Vision]([assets/diet_vision_app.mov](https://github.com/fareedqk/lablab-next-create-your-startup_HACKATHON/blob/ccd3e35af648d4416c27aed764c9275deb552020/assets/diet_vision.mov))
+
+**Mobile App**
+![Diet Vision App]([assets/diet_vision_app.mov](https://github.com/fareedqk/lablab-next-create-your-startup_HACKATHON/blob/ccd3e35af648d4416c27aed764c9275deb552020/assets/diet_vision_app.mov))
+
 ### Future Developments
 
 - **Web Application:** We are developing a full-fledged web app to manage user accounts, track dietary intake, and offer personalized nutrition advice.
