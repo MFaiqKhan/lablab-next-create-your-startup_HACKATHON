@@ -58,10 +58,14 @@ Here are some sample images analyzed by Diet Vision, showcasing the predicted nu
 Under Construction
 
 **Streamlit Web App**
-![Diet Vision]([assets/diet_vision_app.mov](https://github.com/fareedqk/lablab-next-create-your-startup_HACKATHON/blob/ccd3e35af648d4416c27aed764c9275deb552020/assets/diet_vision.mov))
+![Web App](assets/diet_vision_web_app.png)
+
+[Demo Video](assets/diet_vision_app.mov)
 
 **Mobile App**
-![Diet Vision App]([assets/diet_vision_app.mov](https://github.com/fareedqk/lablab-next-create-your-startup_HACKATHON/blob/ccd3e35af648d4416c27aed764c9275deb552020/assets/diet_vision_app.mov))
+![App](assets/diet_vision_app.jpg)
+
+[Demo Video](assets/diet_vision_app.mov)
 
 ### Future Developments
 
@@ -69,10 +73,10 @@ Under Construction
 - **Streamlit and Mobile Apps:** Streamlit will power our interactive web app, while a mobile app will provide users with on-the-go access to our services.
 - **Enhanced Model Accuracy:** By transitioning to YOLOV8 and PyTorch, we aim to further refine our model's accuracy and efficiency.
 
-**Disclaimer** : It's still under development so Accuracy can be off. We are Continuously working ...
+**Disclaimer**: It's still under development so Accuracy can be off. We are continuously working ...
 
 
-### Running the Application for testing Purposes
+### Running the Application for Testing Purposes
 
 To test the application, you can use the `request.py` script available in the root directory. This script allows you to send a POST request to the Flask API hosted on the EC2 instance.
 
@@ -82,7 +86,7 @@ To test the application, you can use the `request.py` script available in the ro
 2. **Execute `request.py`:**
    Run the `request.py` script to send an image to the endpoint and receive the nutritional analysis.
 
-   You can take the image or do different image by giving the relative path
+   You can take the image or do a different image by giving the relative path
 
    ```sh
    python request.py
