@@ -58,12 +58,14 @@ Here are some sample images analyzed by Diet Vision, showcasing the predicted nu
 Under Construction
 
 **Streamlit Web App**
+
 ![Web App](assets/diet_vision_web_app.png)
 
 [Demo Video](assets/diet_vision_app.mov)
 
 **Mobile App**
-![App](assets/diet_vision_app.jpg)
+
+![App](assets/diet_vision_app.png)
 
 [Demo Video](assets/diet_vision_app.mov)
 
