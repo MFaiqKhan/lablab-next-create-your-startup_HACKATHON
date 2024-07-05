@@ -61,4 +61,38 @@ Here are some sample images analyzed by Diet Vision, showcasing the predicted nu
 
 **Disclaimer** : It's still under development so Accuracy can be off. We are Continuously working ...
 
+
+### Running the Application for testing Purposes
+
+To test the application, you can use the `request.py` script available in the root directory. This script allows you to send a POST request to the Flask API hosted on the EC2 instance.
+
+1. **Ensure the Flask API is Running:**
+   Make sure the EC2 API Endpoint is ours (It is set by default)
+
+2. **Execute `request.py`:**
+   Run the `request.py` script to send an image to the endpoint and receive the nutritional analysis.
+
+   You can take the image or do different image by giving the relative path
+
+   ```sh
+   python request.py
+   ```
+
+
 **Join us in making a healthier future a reality with Diet Vision.**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
