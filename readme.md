@@ -61,13 +61,17 @@ Under Construction
 
 ![Web App](assets/diet_vision_web_app.png)
 
-[Demo Video](assets/diet_vision_app.mov)
+**[Demo Video](assets/diet_vision_app.mov)**
+
+---
 
 **Mobile App**
 
 ![App](assets/diet_vision_app.png)
 
-[Demo Video](assets/diet_vision_app.mov)
+**[Demo Video](assets/diet_vision_app.mov)**
+
+---
 
 ### Future Developments
 
