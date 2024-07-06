@@ -108,7 +108,7 @@ tblib==3.0.0
 tensorboard==2.16.2
 tensorboard-data-server==0.7.2
 tensorflow==2.16.2
-tensorflow-intel==2.16.2
+# tensorflow-intel==2.16.2
 tensorflow-io-gcs-filesystem==0.31.0
 termcolor==1.1.0
 tf2onnx==1.16.1
