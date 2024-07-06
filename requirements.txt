@@ -129,7 +129,7 @@ zipp==3.19.2
 zope.event==5.0
 zope.interface==6.4.post2
 streamlit==1.21.0
-pandas==1.5.3
+# pandas==1.5.3
 numpy==1.23.5
 matplotlib==3.6.2
 
