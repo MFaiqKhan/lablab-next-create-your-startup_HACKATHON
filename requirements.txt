@@ -89,7 +89,7 @@ python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 python-rapidjson==1.17
 pytz==2024.1
-# pywin32==306
+pywin32==223
 # PyYAML @ file:///C:/b/abs_782o3mbw7z/croot/pyyaml_1698096085010/work
 referencing==0.35.1
 # requests @ file:///C:/b/abs_9c5n24p1y7/croot/requests_1716902867639/work
