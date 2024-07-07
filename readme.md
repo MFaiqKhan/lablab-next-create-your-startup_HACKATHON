@@ -6,6 +6,8 @@
 
 Diet Vision is a pioneering system designed to automatically track and predict the nutritional values of food items from images. By leveraging advanced computer vision and machine learning models, our solution analyzes food images and provides comprehensive nutritional information, enhancing dietary tracking and health management.
 
+### [Streamlit Demo Web App](dietvision.streamlit.app)
+
 ### Tech Stack
 
 #### Hardware
